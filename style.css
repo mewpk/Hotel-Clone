@@ -180,3 +180,36 @@ main .right img {
     width: 80%;
     align-items: center;
 }
+
+.news {
+    margin-top: 200px;
+}
+.news h1 {
+    margin-left: 100px;
+}
+.news .cards {
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.news .cards .card img{
+    width: 80%;
+    border-radius: 5%;
+    height: 270px;
+}
+.news .cards .card .content {
+    border-radius: 5%;
+    background-color: white;
+    transform: translate(5%, -70%);
+    width: 80%;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.news .cards .card .content .head {
+    display: flex;
+    justify-content: space-between;
+    
+}
